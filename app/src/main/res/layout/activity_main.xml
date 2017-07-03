@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.android.jibuqi.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:background="@drawable/imgg"
+        />
+
+    <TextView
+        android:id="@+id/weightT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请输入体重(Kg):"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/imageView1"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/step" />
+
+            <TextView
+                android:id="@+id/stepT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="步数:"
+                android:textColor="#000000"
+                android:textSize="29sp" />
+
+            <TextView
+                android:id="@+id/stepR"
+                android:layout_width="263dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#008B00"
+                android:textSize="29sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/imageView2"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/speed" />
+
+            <TextView
+                android:id="@+id/speedT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="速度:"
+                android:textColor="#000000"
+                android:textSize="29sp" />
+
+            <TextView
+                android:id="@+id/speedR"
+                android:layout_width="263dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                android:text=""
+                android:textColor="#008B00"
+                android:textSize="29sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/imageView3"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/fire" />
+
+            <TextView
+                android:id="@+id/fireT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="热量:"
+                android:textColor="#000000"
+                android:textSize="29sp" />
+
+            <TextView
+                android:id="@+id/fireR"
+                android:layout_width="263dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                android:text=""
+                android:textColor="#008B00"
+                android:textSize="29sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/way" />
+
+            <TextView
+                android:id="@+id/wayT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="路程:"
+                android:textColor="#000000"
+                android:textSize="29sp" />
+
+            <TextView
+                android:id="@+id/wayR"
+                android:layout_width="263dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#008B00"
+                android:textSize="29sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
